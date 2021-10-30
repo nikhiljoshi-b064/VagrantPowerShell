@@ -1,0 +1,35 @@
+After the installation of Vagrant and Virtual Box.
+
+Choose Your Location or Working Environment to work with Vagrant and VM.
+
+Navigate to your working location and create a folder "Übuntu/AnyName".
+
+cd to your working location or path. Copy that path and paste it in PowerShell.
+
+            For Example : "cd D:\VM\Vagrant\Ubuntu"
+
+After that you have to ADD your preffer linux_os. For that you have type command: 
+
+            "vagrant box add ubuntu/trusty64" and hit enter.
+            
+To Initalized Your Box, Use the below command.
+
+            "vagrant init ubuntu/xenial64"
+
+Run Command "vagrant up" to connect or start your vm-box.
+
+Check Status of your VM, Use the below command :
+
+              vagrant status---- To check the status of your avilable vm's.
+    
+              vagrant halt------ run `vagrant halt` to shut it down forcefully,
+    
+              vagrant suspend -- run `vagrant suspend` to simply suspend the virtual machine 
+    
+              vagrant up --------In either case, to restart it again, simply run `vagrant up`
+              
+To connect with the VM from Vagrant, use command:
+
+              "vagrant ssh"
+              
+Now you are all set and good to go futher. All The Best!               
