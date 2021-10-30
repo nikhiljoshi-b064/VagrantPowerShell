@@ -2,7 +2,7 @@ After the installation of Vagrant and Virtual Box.
 
 Choose Your Location or Working Environment to work with Vagrant and VM.
 
-Navigate to your working location and create a folder "Übuntu/AnyName".
+Navigate to your working location and create a folder "Übuntu" / "Any Name You Want".
 
 cd to your working location or path. Copy that path and paste it in PowerShell.
 
