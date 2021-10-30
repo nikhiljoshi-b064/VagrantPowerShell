@@ -31,5 +31,13 @@ Check Status of your VM, Use the below command :
 To connect with the VM from Vagrant, use command:
 
               "vagrant ssh"
+
+Note: If You are not able to join. Troubleshoot using below command.
+
+vagrant ssh-config                  #It will display the ssh configuration for vagrant.
+
+Check your settings and do manual connection using below command.
+
+ssh username@127.0.0.1 -p 2222 -i copy and paste the Identify Path or your private key path.
               
 Now you are all set and good to go futher. All The Best!               
